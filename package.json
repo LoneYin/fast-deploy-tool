@@ -1,0 +1,25 @@
+{
+	"name": "fast-deploy-tool",
+	"version": "1.0.1",
+	"description": "一个用于前端项目ssh简单部署的脚手架",
+	"bin": {
+		"deploy": "./bin/www"
+	},
+	"keywords": [
+		"web",
+		"node-ssh",
+		"deploy"
+	],
+	"author": "LoneYin",
+	"license": "ISC",
+	"engines": {
+		"node": ">=10.0"
+	},
+	"dependencies": {
+		"chalk": "^2.4.2",
+		"commander": "^2.19.0",
+		"inquirer": "^6.2.2",
+		"node-ssh": "^7.0.0",
+		"ora": "^3.2.0"
+	}
+}
