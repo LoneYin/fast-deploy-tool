@@ -1,6 +1,6 @@
 {
 	"name": "fast-deploy-tool",
-	"version": "1.0.6",
+	"version": "1.0.8",
 	"description": "一个用于前端项目ssh简单部署的脚手架",
 	"bin": {
 		"deploy": "./bin/www"
@@ -22,6 +22,7 @@
 	"dependencies": {
 		"chalk": "^2.4.2",
 		"commander": "^2.19.0",
-		"node-ssh": "^7.0.0"
+		"node-ssh": "^7.0.0",
+		"ora": "^4.0.3"
 	}
 }
