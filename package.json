@@ -1,6 +1,6 @@
 {
 	"name": "fast-deploy-tool",
-	"version": "1.0.9",
+	"version": "1.1.2",
 	"description": "一个用于前端项目ssh简单部署的脚手架",
 	"bin": {
 		"deploy": "./bin/www"

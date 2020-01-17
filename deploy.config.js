@@ -1,7 +1,7 @@
 module.exports = {
   projectName: "", // 项目名称
   prod: {
-    host: "118.31.19.191", // 主机名 必填
+    host: "118.31.19.190", // 主机名 必填
     username: "root", // ssh用户名 必填
     remoteDir: "/www/wwwroot/story.tongxianlife.com", // 要上传到的远程目录 必填
     password: "DFnshngdgwmsx1", // ssh密码  可选  和私钥路径二选一
